@@ -21,6 +21,12 @@ cd ./[任意の格納場所]
 ## GitHubからclone
 git clone https://github.com/sea-yassan33/next14-format.git [プロジェクト名]
 
+## プロジェクトに移動
+cd ./[プロジェクト名]
+
+## .gitを削除
+rm -rf .git
+
 ## 必要なモジュールをインストール
 npm i
 ```
