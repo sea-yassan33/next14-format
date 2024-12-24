@@ -40,6 +40,10 @@ npm install @headlessui/react
 
 ## Heroicons
 npm install @heroicons/react
+
+## reacticons
+## https://react-icons.github.io/react-icons/
+npm install react-icons
 ```
 
 ## page開発テンプレート
