@@ -1,5 +1,23 @@
 [create-next-appで訊かれていること](https://zenn.dev/ikkik/articles/51d97ff70bd0da)
 
+## GitHub必要なモジュールをインストール
+```sh
+## プロジェクト作成
+cd ./[任意の格納場所]
+
+## GitHubからclone
+git clone https://github.com/sea-yassan33/next14-format.git [プロジェクト名]
+
+## プロジェクトに移動
+cd ./[プロジェクト名]
+
+## .gitを削除
+rm -rf .git
+
+## 必要なモジュールをインストール
+npm i
+```
+
 ## 用意するディレクトリ
 ```txt
 app/_components
@@ -37,14 +55,14 @@ npx shadcn@latest add
 ## https://headlessui.com/v1
 npm install @headlessui/react
 
+## reacticons
+## https://react-icons.github.io/react-icons/
+npm install react-icons
+
 ## Heroicons
 ## https://zenn.dev/nino_cast/books/43c539eb47caab/viewer/807f3b
 ## https://heroicons.com/solid
 npm install @heroicons/react
-
-## reacticons
-## https://react-icons.github.io/react-icons/
-npm install react-icons
 
 ## ブラウザ依存のライブラリ
 ## https://qiita.com/KokiSakano/items/e3a42a12f5de3c9f88ea
@@ -73,3 +91,9 @@ export default function Home() {
   );
 }
 ```
+
+## デザインテンプレート
+- [tailwindCSS 入門](https://zenn.dev/yohei_watanabe/books/c0b573713734b9)
+- [tailwind cheatSeet](https://nerdcave.com/tailwind-cheat-sheet)
+- [フレームワーク](https://tailblocks.cc/)
+- [デザインテンプレート](https://v0.dev/legacy?from=chat)
