@@ -41,7 +41,7 @@ settings.jsonの設定
 }
 ```
 
-## 追加ライブラリ
+## 追加ライブラリ(下記インストール済み)
 ```sh
 ## Tailwind Variants
 npm install tailwind-variants
