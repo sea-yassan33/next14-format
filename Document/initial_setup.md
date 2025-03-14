@@ -23,7 +23,7 @@ npm i
 app/_components
 ```
 ## 書換えるファイル
-#### app\globals.css
+#### app\globals.css (実施済み)
 ```css
 @tailwind base;
 @tailwind components;
