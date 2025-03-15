@@ -11,5 +11,5 @@ Ok to proceed? (y) y
 ✔ Would you like to customize the default import alias (@/*)? … No / 
 ```
 
-- [初期設定について](./document/initial_setup.md)
+- [初期設定について](./Document/initial_setup.md)
 
